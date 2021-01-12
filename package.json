@@ -1,0 +1,28 @@
+{
+  "name": "reminderbot",
+  "version": "1.0.0",
+  "description": "Discord bot that keeps track of your to-do list and supports scheduled reminders.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node index.js test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sprocket06/reminderbot.git"
+  },
+  "author": "Sprocket06",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sprocket06/reminderbot/issues"
+  },
+  "homepage": "https://github.com/Sprocket06/reminderbot#readme",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "discord-slash-commands-client": "^1.1.1",
+    "discord.js": "git+https://github.com/MatteZ02/discord.js.git",
+    "require-dir": "^1.2.0"
+  }
+}
